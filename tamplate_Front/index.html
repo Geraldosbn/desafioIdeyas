@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" />
+    <title>Desafio Ideyas</title>
+    <link rel="stylesheet" href="./Style/Style.css" />
+  </head>
+  <body>
+    <div class="topo">
+      <h1 id="titulo"><strong>Ideyas Hamburgueria</strong></h1>
+      <p id="subtitulo">
+        <strong>Adicione uma nova opção ao nosso Cardápio</strong>
+      </p>
+    </div>
+    <br />
+    <div class="container" id="container">
+      <form name="fCardapio" id="form" method="post">
+        <label>Lanche</label><br />
+        <input type="text" name="txtLanche" /><br />
+        <label>Valor</label><br />
+        <input type="text" name="txtValor" /><br />
+        <input class="botao"
+          type="button"
+          value="Enviar"
+          onclick="cadCardapio(txtLanche.value,txtValor.value)"
+        />
+        <input type="submit" id="api" value="Cadastrar">
+      </form>
+    </div>
+    <br />
+    <div id="dtCardapio">
+      <table id="tbCardapio">
+        <thead>
+          <tr>
+            <td>Código</td>
+            <td>Lanche</td>
+            <td>Valor</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="Script/script.js"></script>
+  </body>
+</html>

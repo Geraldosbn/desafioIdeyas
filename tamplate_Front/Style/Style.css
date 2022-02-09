@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(https://scontent.fvix1-1.fna.fbcdn.net/v/t1.6435-9/175365911_285352649870911_513090566179425926_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFiVVU-CO3MS3QRFsC1jQVNoPlEG7u-Klug-UQbu74qWw6DHC5iaC9mXtUoOLy-vghB4ny3JW0hevXN7kBjsdze&_nc_ohc=T0xm0-vu3I4AX-ZqJzx&_nc_ht=scontent.fvix1-1.fna&oh=00_AT8HubolkjxCx-76dORIXMArXjcBcEhzwy2xrUUYB39_ZA&oe=6220D09D);
+  background-size: cover;
+}
+
+.topo {
+  margin: 100px 0 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #dfd9e6;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.container input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  font-size: 100%;
+  text-align: center;
+}
+
+.container label {
+  color: #dfd9e6;
+  font-size: 20px;
+}
+
+.botao {
+  margin: 10px;
+  padding: 10px;
+  width: 225px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.botao:hover {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+#dtCardapio {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+table td {
+  font-size: 20px;
+  width: 30%;
+  color: white;
+  border: solid;
+  text-align: center;
+  border-radius: 10px;
+}
